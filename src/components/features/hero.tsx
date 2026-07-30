@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 export function Hero() {
     return (
         <section className="max-w-7xl mx-auto px-6 py-16">
-            <div className="flex items-center justify-between gap-20">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-10">
 
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
 
                <img 
                src={HeroImage}
@@ -17,7 +17,7 @@ export function Hero() {
 
                 </div>
 
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
 
                 <h1 className="text-5xl font-medium mb-10">Welcome to <span className="font-bold text-6xl text-green-300">Celestine's Backyard!</span></h1>
 

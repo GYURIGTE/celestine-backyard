@@ -12,7 +12,7 @@ export function Header() {
             </NavLink>
           </div>
 
-          <nav className="flex items-center space-x-6 sm:space-x-8 gap-3">
+          <nav className="hidden md:flex items-center gap-6">
             <NavLink to="/" className="text-xl font-medium text-white hover:text-green-800 transition-colors">Home</NavLink>
             <NavLink to="/about" className="text-xl font-medium text-white hover:text-green-800 transition-colors">About</NavLink>
             <NavLink to="/pet" className="text-xl font-medium text-white hover:text-green-800 transition-colors">Pets</NavLink>

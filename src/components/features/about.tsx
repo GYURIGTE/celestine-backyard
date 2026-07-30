@@ -4,9 +4,9 @@ export function About() {
     return (
 
        <main className="max-w-7xl mx-auto px-6 py-16">
-            <section className="flex items-center gap-20 border-gray-700">
+            <section className="flex flex-col md:flex-row items-center justify-between gap-10">
 
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                     <h1 className="text-3xl font-medium mb-6 text-center">
                         About
                     </h1>
@@ -28,7 +28,7 @@ export function About() {
                     </div>
                 </div>
 
-                  <div className="w-1/2">
+                  <div className="w-full md:w-1/2">
                     <img 
                     src={ AboutImage }
                     alt="about-image" 
